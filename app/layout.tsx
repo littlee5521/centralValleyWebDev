@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter } from "./ui/fonts";
+import { raleway } from "./ui/fonts";
 import NavBar from "./ui/navbar";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`{inter.className} p-24`}>
+      <body className={`${raleway.className} pt-4  md:pt-12`}>
         <NavBar />
         {children}
       </body>
