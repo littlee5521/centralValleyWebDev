@@ -1,7 +1,9 @@
+import AboutUsHeader from "../ui/aboutus/header";
+
 export default function Page() {
   return (
-    <>
-      <p className=" text-white">HI</p>
-    </>
+    <main className="flex min-h-fit flex-col items-center justify-between text-white">
+      <AboutUsHeader></AboutUsHeader>
+    </main>
   );
 }
