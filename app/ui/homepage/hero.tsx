@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Hero() {
   return (
     <section className=" flex flex-col min-w-full text-black bg-white text-4xl justify-center pb-6 pt-14">
@@ -11,9 +13,12 @@ export default function Hero() {
           Websites built on the cutting edge. Built for scalability. Built for
           expandability.
         </p>
-        <button className="border-2 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2  transition duration-200 ease-in-out focus:outline-none focus:ring-2">
+        <Link
+          href={"contactUs"}
+          className="border-2 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2  duration-300 transition-colors hover:bg-white hover:border-black hover:text-black focus:outline-none focus:ring-2"
+        >
           Get Started
-        </button>
+        </Link>
         <h2></h2>
       </div>
     </section>

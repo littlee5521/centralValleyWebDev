@@ -30,7 +30,7 @@ export default function Page() {
   return (
     <main className="flex min-h-fit flex-col items-center text-center justify-between text-white">
       <form
-        className="flex flex-col pt-24 w-96"
+        className="flex flex-col pt-14 w-96"
         ref={formRef}
         onSubmit={sendEmail}
       >
@@ -55,7 +55,7 @@ export default function Page() {
           name="message"
         />
         <input
-          className=" mt-10 text-xl mb-10  h-10 text-white border border-white bg-black"
+          className=" mt-10 text-xl mb-10 cursor-pointer  h-10 text-white border border-white bg-black hover:bg-white hover:text-black hover:border-black transition-colors duration-300"
           type="submit"
           content="Hello"
           value="Send"

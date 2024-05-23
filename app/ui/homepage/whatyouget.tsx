@@ -1,4 +1,5 @@
 import { raleway, merriweather } from "../fonts";
+import Link from "next/link";
 
 export default function WhatYouGet() {
   return (
@@ -25,9 +26,12 @@ export default function WhatYouGet() {
             <li className="py-3 border-b border-black">Dedicated Support</li>
             <li className="py-3 border-b border-black">Quick Turnaround</li>
           </ul>
-          <button className="border-2 my-5 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2  transition duration-200 ease-in-out focus:outline-none focus:ring-2">
+          <Link
+            href={"/contactUs"}
+            className="border-2 my-5 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2 focus:outline-none focus:ring-2 duration-300 transition-colors hover:bg-white hover:border-black hover:text-black"
+          >
             Get In Contact
-          </button>
+          </Link>
         </div>
         <div className="bg-white mb-16 m-auto md:m-0 w-fit py-10 px-10">
           <h3 className={` ${merriweather.className} text-2xl font-bold py-3`}>
@@ -47,9 +51,12 @@ export default function WhatYouGet() {
             </li>
             <li className="py-3 border-b border-black">No Deposit Required</li>
           </ul>
-          <button className="border-2 my-5 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2  transition duration-200 ease-in-out focus:outline-none focus:ring-2">
+          <Link
+            href={"/contactUs"}
+            className="border-2 my-5 text-xl m-auto bg-black text-white shadow-2xl text-center block px-4 py-2 duration-300 transition-colors hover:bg-white hover:border-black hover:text-black focus:outline-none focus:ring-2"
+          >
             Get In Contact
-          </button>
+          </Link>
         </div>
       </div>
     </section>
