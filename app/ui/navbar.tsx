@@ -19,6 +19,12 @@ export default function NavBar() {
       <div className="block md:flex gap-3">
         <Link
           className={`border-2 border-transparent border-b border-b-white   ${raleway.className} text-center block px-4 py-2 hover:border-white transition duration-200 ease-in-out focus:outline-none focus:ring-2`}
+          href={"/portfolio"}
+        >
+          <p>Portfolio</p>
+        </Link>
+        <Link
+          className={`border-2 border-transparent border-b border-b-white   ${raleway.className} text-center block px-4 py-2 hover:border-white transition duration-200 ease-in-out focus:outline-none focus:ring-2`}
           href={"/aboutUs"}
         >
           <p>About Us</p>
