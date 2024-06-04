@@ -1,3 +1,9 @@
+import PortfolioHeader from "../ui/porfolio/header";
+
 export default function Page() {
-  return <main></main>;
+  return (
+    <main>
+      <PortfolioHeader />
+    </main>
+  );
 }
