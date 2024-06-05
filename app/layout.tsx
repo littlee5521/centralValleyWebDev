@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${raleway.className} pt-4  md:pt-12`}>
+      <body className={`${raleway.className}`}>
         <NavBar />
         {children}
       </body>

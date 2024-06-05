@@ -5,7 +5,7 @@ export default function NavBar() {
   //
 
   return (
-    <nav className="block md:flex w-full gap-5  justify-between text-xl text-white text-center px-12 pb-10 tracking-wider ">
+    <nav className="block md:flex w-full gap-5 pt-4 md:pt-12  justify-between text-xl text-white text-center px-12 pb-10 tracking-wider ">
       <div className="mb-2 md:mb-0 flex items-center justify-center">
         <Link
           className="border-2 border-transparent text-center block px-4 py-2 hover:border-white border-b border-b-white transition duration-200 ease-in-out focus:outline-none focus:ring-2"
