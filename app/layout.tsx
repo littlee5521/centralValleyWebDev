@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 import "./globals.css";
 import { raleway } from "./ui/fonts";
 import NavBar from "./ui/navbar";
@@ -16,6 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta
+          name="ahrefs-site-verification"
+          content="9e2e2a1f83273ce5a25a960600cc136b493120bfaf1dace8aef4908f52817428"
+        />
+      </Head>
       <body className={`${raleway.className}`}>
         <NavBar />
         {children}
